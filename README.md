@@ -10,7 +10,7 @@ Usage is exactly like ChildBrowser except you send a bundled pdf file name inste
 
 Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
-![image](https://raw.github.com/RandyMcMillan/Cordova--iOS--PDFViewer-/master/Cordova.plist.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
 
 This code is completely dependent on the Apache Cordova (formerly PhoneGap) project, hosted on [GitHub](http://github.com/apache)
 
