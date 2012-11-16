@@ -12,7 +12,7 @@
  // Does nothing
  }
  
-  
+ 
  // Callback when the user chooses the 'Done' button
  // called from native
  PDFViewer._onClose = function()
