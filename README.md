@@ -1,6 +1,10 @@
 ##PDFViewer for Cordova iOS
 
-Usage is exactly like ChildBrowser except you send a bundled pdf file name instead of an external url
+PDFViewer is meant for one purpose.  To view PDFs that are included in your app.
+
+"showPDF" usage is exactly like ChildBrowser's "showWebPage" except you send a bundled pdf file name instead of a url.
+
+Examples: 
 
     <button onclick="cordova.exec('PDFViewerCommand.showPDF', 'CordovaBot.pdf');">Click to open  CordovaBot.pdf!</button>
 
