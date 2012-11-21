@@ -2,9 +2,9 @@
 
 Usage is exactly like ChildBrowser except you send a bundled pdf file name instead of an external url
 
-         <button onclick="cordova.exec('PDFViewerCommand.showPDF', 'CordovaBot.pdf');">Click to open  CordovaBot.pdf!</button>
+    <button onclick="cordova.exec('PDFViewerCommand.showPDF', 'CordovaBot.pdf');">Click to open  CordovaBot.pdf!</button>
 
-            <button onclick="cordova.exec('PDFViewerCommand.showPDF', 'readme.pdf');">Click to open  readme.pdf!</button>
+    <button onclick="cordova.exec('PDFViewerCommand.showPDF', 'readme.pdf');">Click to open  readme.pdf!</button>
 
 
 
@@ -12,7 +12,7 @@ Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
 
-This code is completely dependent on the Apache Cordova (formerly PhoneGap) project, hosted on [GitHub](http://github.com/apache)
+This code is completely dependent on the Apache Cordova (formerly PhoneGap) project, hosted on [GitHub](https://github.com/RandyMcMillan/PDFViewer)
 
 The MIT License
 
