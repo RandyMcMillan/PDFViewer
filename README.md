@@ -16,7 +16,19 @@ Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
 
-This code is completely dependent on the Apache Cordova (aka PhoneGap) project, mirrored at [https://github.com/apache/incubator-cordova-ios.git](https://github.com/apache/incubator-cordova-ios)
+
+
+#####NOTES: 
+
+#####• PDFViewer is not meant to replace ChildBrowser.
+
+#####• It only displays PDFs.
+
+<br>
+
+This code is dependent on the Apache Cordova (iOS) project. 
+
+[https://github.com/apache/incubator-cordova-ios.git](https://github.com/apache/incubator-cordova-ios)
 
 The MIT License
 
