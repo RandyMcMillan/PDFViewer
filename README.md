@@ -22,7 +22,7 @@ Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
 #####• PDFViewer is not meant to replace ChildBrowser.
 
-#####• It only displays PDFs.
+#####• PDFViewer only displays PDFs.
 
 <br>
 
