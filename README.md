@@ -12,7 +12,7 @@ Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
 
-This code is completely dependent on the Apache Cordova (aka PhoneGap) project, hosted on [GitHub](https://github.com/apache/incubator-cordova-ios)
+This code is completely dependent on the Apache Cordova (aka PhoneGap) project, mirrored at [https://github.com/apache/incubator-cordova-ios.git](https://github.com/apache/incubator-cordova-ios)
 
 The MIT License
 
