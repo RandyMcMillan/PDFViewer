@@ -51,6 +51,14 @@ Copy PDFViewer to your project plugin folder.
 
 
 
+
+<br>
+
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot3.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot4.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot5.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot6.png)
+
 <br>
 
 
