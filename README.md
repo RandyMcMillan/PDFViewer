@@ -2,13 +2,19 @@
 
 PDFViewer is meant for one purpose.  To view PDFs that are included in the native file structure of your app.
 
+
 "showPDF" usage is exactly like ChildBrowser's "showWebPage" except you send a bundled pdf file name instead of a url.
 
 Examples: 
 
-    <button onclick="cordova.exec('PDFViewerCommand.showPDF', 'CordovaBot.pdf');">Click to open  CordovaBot.pdf!</button>
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot.png)
 
-    <button onclick="cordova.exec('PDFViewerCommand.showPDF', 'readme.pdf');">Click to open  readme.pdf!</button>
+
+`<button onclick="cordova.exec('PDFViewerCommand.showPDF', 'CordovaBot.pdf');">Click to open  CordovaBot.pdf!</button>`
+
+
+<br>
+`<button onclick="cordova.exec('PDFViewerCommand.showPDF', 'readme.pdf');">Click to open  readme.pdf!</button>`
 
 
 
