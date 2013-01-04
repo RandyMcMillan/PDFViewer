@@ -34,13 +34,9 @@ Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
 This code is dependent on the Apache Cordova (iOS) project. 
 --
-[Apache Cordova project](http://cordova.apache.org)  
+[Apache Cordova (iOS) project](http://cordova.apache.org)  
 [git://git.apache.org/cordova-ios.git](git://git.apache.org/cordova-ios.git)  
 
-<br>
-Downstream distro:  
---
-[https://github.com/phonegap/phonegap/tree/master/lib/ios](https://github.com/phonegap/phonegap/tree/master/lib/ios)
 
 The MIT License
 
