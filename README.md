@@ -1,5 +1,7 @@
 ##PDFViewer for Cordova iOS
 
+    $ git clone https://github.com/RandyMcMillan/PDFViewer.git
+
 PDFViewer is meant for one purpose.  To view PDFs that are included in the native file structure of your app.
 
 
@@ -12,21 +14,24 @@ Copy PDFViewer to your project plugin folder.
 
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot7.png)
 
+<br>
 
+###Add to Cordova.plist
 
- 
-
-Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
-
-
-
-![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
 
 
 | Key | Type | Value |
 | ------------ | ------------- | ------------ |
 | PDFViewerCommand | String  | PDFViewerCommand |
 
+
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
+
+###Cordova 2.3.0 
+
+#####config.xml
+
+        <plugin name="PDFViewerCommand" value="PDFViewerCommand" />
 
 
 ###Examples: <br><br>
@@ -45,16 +50,8 @@ Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
 
 
-Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
+<br>
 
-
-
-![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
-
-
-| Key | Type | Value |
-| ------------ | ------------- | ------------ |
-| PDFViewerCommand | String  | PDFViewerCommand |
 
 
 #####NOTES: 
