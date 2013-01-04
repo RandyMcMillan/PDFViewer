@@ -14,14 +14,23 @@ Examples:
 
 
 <br>
+
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot2.png)
+
 `<button onclick="cordova.exec('PDFViewerCommand.showPDF', 'readme.pdf');">Click to open  readme.pdf!</button>`
 
 
 
 Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
+
+
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
 
+
+| Key | Type | Value |
+| ------------ | ------------- | ------------ |
+| PDFViewerCommand | String  | PDFViewerCommand |
 
 
 #####NOTES: 
