@@ -1,6 +1,6 @@
 ##PDFViewer for Cordova iOS
 
-PDFViewer is meant for one purpose.  To view PDFs that are included in your app.
+PDFViewer is meant for one purpose.  To view PDFs that are included in the native file structure of your app.
 
 "showPDF" usage is exactly like ChildBrowser's "showWebPage" except you send a bundled pdf file name instead of a url.
 
@@ -20,15 +20,27 @@ Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
 
 #####NOTES: 
 
-#####• PDFViewer is not meant to replace ChildBrowser.
+* PDFViewer is not meant to replace ChildBrowser.
 
-#####• PDFViewer only displays PDFs.
+* PDFViewer only displays PDFs.
+
+#####TODO: 
+
+* Add better AutoResizing support. (Boolean toggle)
+* Add Modal display options. (fullscreen, page, form)
+* Add Modal transition options. (curl, dissolve, swap)
 
 <br>
 
 This code is dependent on the Apache Cordova (iOS) project. 
+--
+[Apache Cordova project](http://cordova.apache.org)  
+[git://git.apache.org/cordova-ios.git](git://git.apache.org/cordova-ios.git)  
 
-[https://github.com/apache/incubator-cordova-ios.git](https://github.com/apache/incubator-cordova-ios)
+<br>
+Downstream distro:  
+--
+[https://github.com/phonegap/phonegap/tree/master/lib/ios](https://github.com/phonegap/phonegap/tree/master/lib/ios)
 
 The MIT License
 

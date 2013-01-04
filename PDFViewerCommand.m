@@ -22,9 +22,17 @@
 		self.pdfViewer.delegate				= self;
 		self.pdfViewer.orientationDelegate	= self.viewController;
 	}
-
-	pdfViewer.modalPresentationStyle = UIModalPresentationPageSheet;
-	[self.viewController presentModalViewController:pdfViewer animated:YES];
+	
+    
+    //TODO: Add better Modal Pres options
+    pdfViewer.modalPresentationStyle = UIModalPresentationFullScreen;
+    //pdfViewer.modalPresentationStyle = UIModalPresentationPageSheet;
+	//pdfViewer.modalPresentationStyle = UIModalPresentationFormSheet;
+	pdfViewer.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    //pdfViewer.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    //pdfViewer.modalTransitionStyle  =  UIModalTransitionStyleFlipHorizontal;
+    
+    [self.viewController presentModalViewController:pdfViewer animated:YES];
 
 	NSString *pdfName = (NSString *)[arguments objectAtIndex:0];
 
