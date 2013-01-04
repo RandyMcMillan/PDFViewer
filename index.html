@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Pdfviewer : View bundled PDFs in a Cordova (iOS) app" />
+    <meta name="description" content="PDFViewer : View bundled PDFs in a Cordova (iOS) app" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Pdfviewer</title>
+    <title>PDFViewer</title>
   </head>
 
   <body>
@@ -18,7 +18,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/RandyMcMillan/PDFViewer">View on GitHub</a>
 
-          <h1 id="project_title">Pdfviewer</h1>
+          <h1 id="project_title">PDFViewer</h1>
           <h2 id="project_tagline">View bundled PDFs in a Cordova (iOS) app</h2>
 
             <section id="downloads">
@@ -33,32 +33,76 @@
       <section id="main_content" class="inner">
         <h2>PDFViewer for Cordova iOS</h2>
 
-<p>PDFViewer is meant for one purpose.  To view PDFs that are included in your app.</p>
+<pre><code>$ git clone https://github.com/RandyMcMillan/PDFViewer.git
+</code></pre>
+
+<p>PDFViewer is meant for one purpose.  To view PDFs that are included in the native file structure of your app.</p>
 
 <p>"showPDF" usage is exactly like ChildBrowser's "showWebPage" except you send a bundled pdf file name instead of a url.</p>
 
-<p>Examples: </p>
+<h2>Install:</h2>
 
-<pre><code>&lt;button onclick="cordova.exec('PDFViewerCommand.showPDF', 'CordovaBot.pdf');"&gt;Click to open  CordovaBot.pdf!&lt;/button&gt;
+<p>Copy PDFViewer to your project plugin folder.</p>
 
-&lt;button onclick="cordova.exec('PDFViewerCommand.showPDF', 'readme.pdf');"&gt;Click to open  readme.pdf!&lt;/button&gt;
-</code></pre>
-
-<p>Add PDFViewerCommand | PDFViewerCommand to Cordova.plist</p>
-
-<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png" alt="image"></p>
-
-<h5>NOTES:</h5>
-
-<h5>• PDFViewer is not meant to replace ChildBrowser.</h5>
-
-<h5>• PDFViewer only displays PDFs.</h5>
+<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot7.png" alt="image"></p>
 
 <p><br></p>
 
-<p>This code is dependent on the Apache Cordova (iOS) project. </p>
+<h3>Add to Cordova.plist</h3>
 
-<p><a href="https://github.com/apache/incubator-cordova-ios">https://github.com/apache/incubator-cordova-ios.git</a></p>
+<table>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>PDFViewerCommand</td>
+<td>String</td>
+<td>PDFViewerCommand</td>
+</tr>
+</table><p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png" alt="image"></p>
+
+<h3>Cordova 2.3.0</h3>
+
+<h5>config.xml</h5>
+
+<pre><code>    &lt;plugin name="PDFViewerCommand" value="PDFViewerCommand" /&gt;
+</code></pre>
+
+<h3>Examples: <br><br>
+</h3>
+
+<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot.png" alt="image"></p>
+
+<pre><code>&lt;button onclick="cordova.exec('PDFViewerCommand.showPDF', 'CordovaBot.pdf');"&gt;Click to open  CordovaBot.pdf!&lt;/button&gt;
+</code></pre>
+
+<p><br></p>
+
+<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot2.png" alt="image"></p>
+
+<pre><code>&lt;button onclick="cordova.exec('PDFViewerCommand.showPDF', 'readme.pdf');"&gt;Click to open  readme.pdf!&lt;/button&gt;
+</code></pre>
+
+<p><br></p>
+
+<h5>NOTES:</h5>
+
+<ul>
+<li><p>PDFViewer is not meant to replace ChildBrowser.</p></li>
+<li><p>PDFViewer only displays PDFs.</p></li>
+</ul><h5>TODO:</h5>
+
+<ul>
+<li>Add better AutoResizing support. (Boolean toggle)</li>
+<li>Add Modal display options. (fullscreen, page, form)</li>
+<li>Add Modal transition options. (curl, dissolve, swap)</li>
+</ul><p><br></p>
+
+<h2>This code is dependent on the Apache Cordova (iOS) project. </h2>
+
+<p><a href="http://cordova.apache.org">Apache Cordova (iOS) project</a><br><a>git://git.apache.org/cordova-ios.git</a>  </p>
 
 <p>The MIT License</p>
 
@@ -75,7 +119,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Pdfviewer maintained by <a href="https://github.com/RandyMcMillan">RandyMcMillan</a></p>
+        <p class="copyright">PDFViewer maintained by <a href="https://github.com/RandyMcMillan">RandyMcMillan</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
