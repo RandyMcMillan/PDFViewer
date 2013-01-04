@@ -4,7 +4,8 @@
 
 PDFViewer is meant for one purpose.  To view PDFs that are included in the native file structure of your app.
 
-
+Familiar usage:   
+---
 "showPDF" usage is exactly like ChildBrowser's "showWebPage" except you send a bundled pdf file name instead of a url.
 
 ##Install:
