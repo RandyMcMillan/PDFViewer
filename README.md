@@ -5,6 +5,30 @@ PDFViewer is meant for one purpose.  To view PDFs that are included in the nativ
 
 "showPDF" usage is exactly like ChildBrowser's "showWebPage" except you send a bundled pdf file name instead of a url.
 
+##Install:
+
+
+Copy PDFViewer to your project plugin folder.
+
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot7.png)
+
+
+
+ 
+
+Add PDFViewerCommand | PDFViewerCommand to Cordova.plist
+
+
+
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png)
+
+
+| Key | Type | Value |
+| ------------ | ------------- | ------------ |
+| PDFViewerCommand | String  | PDFViewerCommand |
+
+
+
 ###Examples: <br><br>
 
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot.png)
