@@ -22,19 +22,18 @@
 		self.pdfViewer.delegate				= self;
 		self.pdfViewer.orientationDelegate	= self.viewController;
 	}
-	
-    
-    //TODO: Add better Modal Pres options
-    pdfViewer.modalPresentationStyle = UIModalPresentationFullScreen;
-    //pdfViewer.modalPresentationStyle = UIModalPresentationPageSheet;
-	//pdfViewer.modalPresentationStyle = UIModalPresentationFormSheet;
-	pdfViewer.modalTransitionStyle = UIModalTransitionStylePartialCurl;
-    //pdfViewer.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-    //pdfViewer.modalTransitionStyle  =  UIModalTransitionStyleFlipHorizontal;
-    
-    [self.viewController presentModalViewController:pdfViewer animated:YES];
 
-	NSString *pdfName = (NSString *)[arguments objectAtIndex:0];
+	// TODO: Add better Modal Pres options
+	pdfViewer.modalPresentationStyle = UIModalPresentationFullScreen;
+	// pdfViewer.modalPresentationStyle = UIModalPresentationPageSheet;
+	// pdfViewer.modalPresentationStyle = UIModalPresentationFormSheet;
+	pdfViewer.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+	// pdfViewer.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+	// pdfViewer.modalTransitionStyle  =  UIModalTransitionStyleFlipHorizontal;
+
+	[self.viewController presentModalViewController:pdfViewer animated:YES];
+
+	NSString *pdfName = (NSString *)[arguments objectAtIndex:1];
 
 	[self.pdfViewer loadPDF:pdfName];	// @"YingYang.pdf"];
 }
@@ -56,7 +55,6 @@
 
 		[super dealloc];
 	}
-
 #endif
 
 @end
