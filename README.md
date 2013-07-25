@@ -21,10 +21,13 @@ CDVPDFViewer
 | ------------ |---| ------------- |
 | CDVPDFViewer | String | CDVPDFViewer |
 
-#####Cordova 2.3+ Add config.xml values
+#####Cordova (iOS) 2.3+ Add config.xml values
 `<plugin name="CDVPDFViewer" value="CDVPDFViewer" />`
 
-
+#####Cordova (iOS) 3.0+
+    <feature name="___FILEBASENAME___">
+        <param name="ios-package" value="___FILEBASENAME___"/>
+    </feature>
 
 
 Add Folder Group from 
