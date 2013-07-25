@@ -25,8 +25,8 @@ CDVPDFViewer
 `<plugin name="CDVPDFViewer" value="CDVPDFViewer" />`
 
 #####Cordova (iOS) 3.0+
-    <feature name="___FILEBASENAME___">
-        <param name="ios-package" value="___FILEBASENAME___"/>
+    <feature name="CDVPDFViewer">
+        <param name="ios-package" value="CDVPDFViewer"/>
     </feature>
 
 
