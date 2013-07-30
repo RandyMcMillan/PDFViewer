@@ -23,6 +23,23 @@ A sample index.html is included in the plugin repository
     </feature>
 
 
+
+
+
+This new version offers a new UI based on original source code here: [https://github.com/vfr/Reader](https://github.com/vfr/Reader)
+
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/viewportrait.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/viewportrait2.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview2.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview3.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview4.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview5.png)
+
+
+
+
+
 <br>
 Permission is hereby granted, free of charge, to any person obtaining a copy of 
 this software and associated documentation files (the "Software"), to deal in 
