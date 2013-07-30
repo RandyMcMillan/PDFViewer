@@ -23,6 +23,13 @@ A sample index.html is included in the plugin repository
     </feature>
 
 
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/AddFilesToProject.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/AddProjectsToProject2.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/CopyJSToWWW.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/CopyJSToWWW2.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/EditConfigXML.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/IndexHTML.png)
+![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/MessageUI.png)
 
 
 
