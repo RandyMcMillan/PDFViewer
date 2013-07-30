@@ -4,7 +4,7 @@
 CDVPDFViewer  
 
   Created by Randy McMillan on 7/25/13.  
-  Copyright __MyCompanyName__ 2013. All rights reserved.
+  Copyright RandyMcMillan.net 2013. All rights reserved.
 
 
 
@@ -12,39 +12,15 @@ CDVPDFViewer
 
 `<script type="text/javascript" charset="utf-8" src="CDVPDFViewer.js"></script>`
 
+A sample index.html is included in the plugin repository
 
+####Cordova (iOS) 3.0+
 
+#####add to your config.xml 
 
-#####Add Cordova.plist values
-
-| Key | Type | Value |
-| ------------ |---| ------------- |
-| CDVPDFViewer | String | CDVPDFViewer |
-
-#####Cordova (iOS) 2.3+ Add config.xml values
-`<plugin name="CDVPDFViewer" value="CDVPDFViewer" />`
-
-#####Cordova (iOS) 3.0+
     <feature name="CDVPDFViewer">
         <param name="ios-package" value="CDVPDFViewer"/>
     </feature>
-
-
-Add Folder Group from 
----
-`~/Library/Developer/Xcode/Templates/File\ Templates\CDVPDFViewer/UIImage+PDF`
-
-![image](https://raw.github.com/RandyMcMillan/CDVPDFViewer/master/CDVPDFViewer.xctemplate/ScreenShot1.png)
-
-#### *Option 
-
-Link or Copy into the Xcode project
-
-
-![image](https://raw.github.com/RandyMcMillan/CDVPDFViewer/master/CDVPDFViewer.xctemplate/ScreenShot2.png)
-<br>
-
-[Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVPDFViewer/master/CDVPDFViewer.xctemplate/index.html)
 
 
 <br>
