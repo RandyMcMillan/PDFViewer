@@ -1,135 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="PDFViewer : View bundled PDFs in a Cordova (iOS) app" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>PDFViewer by RandyMcMillan</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>PDFViewer</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>PDFViewer</h1>
+        <p>View bundled PDFs in a Cordova (iOS) app</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/RandyMcMillan/PDFViewer">View on GitHub</a>
+        <p class="view"><a href="https://github.com/RandyMcMillan/PDFViewer">View the Project on GitHub <small>RandyMcMillan/PDFViewer</small></a></p>
 
-          <h1 id="project_title">PDFViewer</h1>
-          <h2 id="project_tagline">View bundled PDFs in a Cordova (iOS) app</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/RandyMcMillan/PDFViewer/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/RandyMcMillan/PDFViewer/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+        <ul>
+          <li><a href="https://github.com/RandyMcMillan/PDFViewer/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/RandyMcMillan/PDFViewer/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/RandyMcMillan/PDFViewer">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a name="the-mit-license" class="anchor" href="#the-mit-license"><span class="octicon octicon-link"></span></a>The MIT License</h2>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>PDFViewer for Cordova iOS</h2>
+<p>CDVPDFViewer  </p>
 
-<pre><code>$ git clone https://github.com/RandyMcMillan/PDFViewer.git
+<p>Created by Randy McMillan on 7/25/13.<br>
+  Copyright RandyMcMillan.net 2013. All rights reserved.</p>
+
+<h4>
+<a name="add-to-wwwindexhtml" class="anchor" href="#add-to-wwwindexhtml"><span class="octicon octicon-link"></span></a>Add to www/index.html</h4>
+
+<p><code>&lt;script type="text/javascript" charset="utf-8" src="CDVPDFViewer.js"&gt;&lt;/script&gt;</code></p>
+
+<p>A sample index.html is included in the plugin repository</p>
+
+<h4>
+<a name="cordova-ios-30" class="anchor" href="#cordova-ios-30"><span class="octicon octicon-link"></span></a>Cordova (iOS) 3.0+</h4>
+
+<h5>
+<a name="add-to-your-configxml" class="anchor" href="#add-to-your-configxml"><span class="octicon octicon-link"></span></a>add to your config.xml</h5>
+
+<pre><code>&lt;feature name="CDVPDFViewer"&gt;
+    &lt;param name="ios-package" value="CDVPDFViewer"/&gt;
+&lt;/feature&gt;
 </code></pre>
 
-<p>PDFViewer is meant for one purpose.  To view PDFs that are included in the native file structure of your app.</p>
+<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/AddFilesToProject.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/AddProjectsToProject2.png" alt="image"></p>
 
-<h2>Familiar usage:   </h2>
+<h3>
+<a name="add-files-to-the-project" class="anchor" href="#add-files-to-the-project"><span class="octicon octicon-link"></span></a>Add files to the project</h3>
 
-<p>"showPDF" usage is exactly like ChildBrowser's "showWebPage" except you send a bundled pdf file name instead of a url.</p>
+<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/CopyJSToWWW.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/CopyJSToWWW2.png" alt="image"></p>
 
-<h2>Install:</h2>
+<h3>
+<a name="copy-cdvpdfviewerjs-to-your-projects-www-folder" class="anchor" href="#copy-cdvpdfviewerjs-to-your-projects-www-folder"><span class="octicon octicon-link"></span></a>Copy CDVPDFViewer.js to your project's WWW folder</h3>
 
-<p>Copy PDFViewer to your project plugin folder.</p>
+<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/EditConfigXML.png" alt="image"></p>
 
-<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot7.png" alt="image"></p>
+<h3>
+<a name="edit-the-configxml-file" class="anchor" href="#edit-the-configxml-file"><span class="octicon octicon-link"></span></a>Edit the config.xml file</h3>
 
-<p><br></p>
-
-<h3>Add to Cordova.plist</h3>
-
-<table>
-<tr>
-<th>Key</th>
-<th>Type</th>
-<th>Value</th>
-</tr>
-<tr>
-<td>PDFViewerCommand</td>
-<td>String</td>
-<td>PDFViewerCommand</td>
-</tr>
-</table><p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/Cordova.plist.png" alt="image"></p>
-
-<h3>Cordova 2.3.0</h3>
-
-<h5>config.xml</h5>
-
-<pre><code>    &lt;plugin name="PDFViewerCommand" value="PDFViewerCommand" /&gt;
+<pre><code>&lt;feature name="CDVPDFViewer"&gt;
+    &lt;param name="ios-package" value="CDVPDFViewer"/&gt;
+&lt;/feature&gt;
 </code></pre>
 
-<h3>Examples: <br><br>
-</h3>
+<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/IndexHTML.png" alt="image">
+Sample <a href="https://raw.github.com/RandyMcMillan/PDFViewer/master/index.html">index.html</a>
+<img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/MessageUI.png" alt="image">
+Add MessageUI.framework to your project.</p>
 
-<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot.png" alt="image"></p>
+<p>This new version offers a new UI based on original source code here: <a href="https://github.com/vfr/Reader">https://github.com/vfr/Reader</a>
+<br>Reference for additional usage </p>
 
-<pre><code>&lt;button onclick="cordova.exec('PDFViewerCommand.showPDF', 'CordovaBot.pdf');"&gt;Click to open  CordovaBot.pdf!&lt;/button&gt;
-</code></pre>
+<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/viewportrait.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/viewportrait2.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview2.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview3.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview4.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ipadlandscapeview5.png" alt="image"></p>
 
-<p><br></p>
+<p><br>
+Permission is hereby granted, free of charge, to any person obtaining a copy of 
+this software and associated documentation files (the "Software"), to deal in 
+the Software without restriction, including without limitation the rights to 
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:</p>
 
-<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot2.png" alt="image"></p>
+<p>The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.</p>
 
-<pre><code>&lt;button onclick="cordova.exec('PDFViewerCommand.showPDF', 'readme.pdf');"&gt;Click to open  readme.pdf!&lt;/button&gt;
-</code></pre>
-
-<p><br></p>
-
-<p><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot3.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot4.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot5.png" alt="image"><img src="https://raw.github.com/RandyMcMillan/PDFViewer/master/ScreenShot6.png" alt="image"></p>
-
-<p><br></p>
-
-<h5>NOTES:</h5>
-
-<ul>
-<li><p>PDFViewer is not meant to replace ChildBrowser.</p></li>
-<li><p>PDFViewer only displays PDFs.</p></li>
-</ul><h5>TODO:</h5>
-
-<ul>
-<li>Add better AutoResizing support. (Boolean toggle)</li>
-<li>Add Modal display options. (fullscreen, page, form)</li>
-<li>Add Modal transition options. (curl, dissolve, swap)</li>
-</ul><p><br></p>
-
-<h2>This code is dependent on the Apache Cordova (iOS) project. </h2>
-
-<p><a href="http://cordova.apache.org">Apache Cordova (iOS) project</a><br><a>git://git.apache.org/cordova-ios.git</a>  </p>
-
-<p>The MIT License</p>
-
-<p>Copyright (c) 2012 Randy McMillan</p>
-
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-
-<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-
-<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">PDFViewer maintained by <a href="https://github.com/RandyMcMillan">RandyMcMillan</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/RandyMcMillan">RandyMcMillan</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -140,7 +118,6 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
 
   </body>
 </html>
