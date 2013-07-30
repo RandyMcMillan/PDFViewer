@@ -25,15 +25,27 @@ A sample index.html is included in the plugin repository
 
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/AddFilesToProject.png)
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/AddProjectsToProject2.png)
+###Add files to the project
+
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/CopyJSToWWW.png)
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/CopyJSToWWW2.png)
+###Copy CDVPDFViewer.js to your project's WWW folder
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/EditConfigXML.png)
+###Edit the config.xml file
+
+    <feature name="CDVPDFReader">
+        <param name="ios-package" value="CDVPDFReader"/>
+    </feature>
+
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/IndexHTML.png)
+Sample [index.html](https://raw.github.com/RandyMcMillan/PDFViewer/master/index.html)
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/MessageUI.png)
+Add MessageUI.framework to your project.
 
 
 
 This new version offers a new UI based on original source code here: [https://github.com/vfr/Reader](https://github.com/vfr/Reader)
+<br>Reference for additional usage 
 
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/viewportrait.png)
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/viewportrait2.png)
