@@ -33,8 +33,8 @@ A sample index.html is included in the plugin repository
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/EditConfigXML.png)
 ###Edit the config.xml file
 
-    <feature name="CDVPDFReader">
-        <param name="ios-package" value="CDVPDFReader"/>
+    <feature name="CDVPDFViewer">
+        <param name="ios-package" value="CDVPDFViewer"/>
     </feature>
 
 ![image](https://raw.github.com/RandyMcMillan/PDFViewer/master/IndexHTML.png)
